@@ -1,0 +1,93 @@
+
+@media only screen and (max-width: 767px) {
+    body{
+      overflow-y: scroll;
+    }
+    .custom-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      height: 340px;
+      align-items: center;
+    }
+  
+.content h2{
+  font-size: 18px;
+}
+
+    .nav-button {
+      margin: 5px ;
+      width: 70vw;
+    }
+  .ib{
+    width: 50vw;
+    height: 50vh;
+  }
+  .content h1{
+    font-size: 35px;
+    animation: none;
+  }
+    .logo-link i.fas.fa-font {
+      margin-right: 0;
+    }
+    .portfolio-image {
+      margin-top: 5%;
+      width: 95vw;
+      height: 50vh;
+      border-radius: 15px;
+   
+  }
+  .project-item {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-right: 20%;
+    margin-left: -250px;
+}
+
+.project-item:hover {
+  background-color: transparent;
+  color: initial;
+  width: auto;
+  padding: 0;
+  border-radius: 0;
+  transform: none;
+}
+.portfolio-projects h3{
+margin-left: -150px;
+}
+
+  
+    .portfolio-container {
+      width: 100%;
+      margin-top: 10%;
+      margin-left: 2%;
+    }
+    .portfolio-container:hover{
+      background-color: transparent;
+      color: initial;
+      width: auto;
+      padding: 0;
+      border-radius: 0;
+      transform: none;
+    }
+  .portfolio-container h3{
+    width: 100%;
+    font-size: 50px;
+  }
+    .portfolio-buttons {
+      margin-left: 0;
+    }
+    .feedback-container{
+      margin-top: 3%;
+      padding: 2%;
+      background-color:white;
+      width: 90%;
+    border-radius: 15px;
+      
+  }
+
+  
+  #feedbackForm textarea{
+    width: 200px;
+  }
+}

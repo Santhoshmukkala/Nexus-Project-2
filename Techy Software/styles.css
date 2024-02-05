@@ -1,0 +1,257 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    height:max-content;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(45deg,lemonchiffon,darkkhaki)
+    
+}
+
+
+.service-container {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    width: 450px;
+    font-size: 14px;
+    height: 285px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    background-color: #66605A;
+    color:white;
+    transform: scale(1.05);
+}
+.content {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.ib {
+    width: 40vw; 
+    height: 30vw;
+    margin-top: 6%;
+}
+
+.smoke {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0) 70%);
+  animation: smokeAnimation 2s infinite ;
+}
+
+
+@keyframes smokeAnimation {
+  0% {
+    transform: translatey(5%);
+  }
+  100% {
+    transform: translatey(-10%);
+  }
+}
+
+
+.custom-navbar {
+    background-color:#66605A;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+i.fas.fa-font {
+    font-size: 30px; 
+    font-weight: bold;
+    margin-right: 10px; 
+    color: #eeeef0; 
+    background: #050505; 
+    border-radius: 40px;
+    margin-right: -9%;
+    padding: 8px; 
+    border-radius: 20px; 
+    border: 2px solid #0c0c0d; 
+}
+
+.logo-link {
+    text-decoration: none; 
+    color: #333; 
+}
+
+.logo-link:hover {
+    color: #3d22d7; 
+}
+
+img{
+    width: 230px;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 1%;
+    font-size: 30px;
+}
+.fa-home {
+    font-size: 5vh;
+    margin-left: 2vh;
+    color: #ded8d8;
+    transition: color 0.3s ease;
+}
+.content h2{
+    font-size: 30px;
+     width: 100%;
+      border-radius: 20px; 
+      margin-left: 2%;
+       margin-top: 3%;
+}
+.content h1 {
+    text-align: center;
+    background: linear-gradient(45deg, #3792ba, #7a4b65);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: pulseAnimation 1.5s infinite; 
+}
+
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fa-home:hover {
+    color: #3d22d7;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding:20px;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+.portfolio-container {
+    margin-top: -26%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70%;
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio-container:hover {
+    background-color: #66605A;
+    color:white;
+    width: 30vw;
+    border-radius: 15px;
+    transform: scale(1.05);
+}
+
+
+.portfolio-image {
+    margin-top: 5%;
+    width: 60vw;
+    height: 50vh;
+    border-radius: 15px;
+    margin-left: 2%;
+}
+
+.portfolio-projects {
+    margin-left: 70%;
+}
+
+.project-item {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.project-item:hover {
+    background-color: #66605A;
+    color:white;
+    width: 30vw;
+    padding: 1%;
+    border-radius: 15px;
+    transform: scale(1.05);
+}
+.portfolio-buttons {
+    margin-top: 30px;
+    margin-left: 70%;
+    margin-bottom: 2%;
+}
+.portfolio-buttons.btn button.btn-outline-light {
+    background-color: #3498db;
+    color: #ffffff; 
+    border-color: #3498db; 
+}
+
+.portfolio-buttons.btn button.btn-outline-light:hover {
+    background-color: #10058b;
+    border-color: #0f1f94;
+}
+.feedback-container{
+    margin-top: 3%;
+    padding: 2%;
+    background-color:white;
+    width: 50%;
+  border-radius: 15px;
+    
+}
+
+
+#feedbackForm label{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: -28%;
+    font-size: 20px;
+    height: 40px;
+}
+#feedbackForm input{ 
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 40%;
+    
+    border-radius: 10px;
+}
+#feedbackForm textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 100px;
+    font-size: 20px;
+}
+
+#feedbackForm button {
+    background-color: #3498db;
+    color: #ffffff;
+    border-color: #3498db;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#feedbackForm button:hover {
+    background-color: #10058b;
+    border-color: #0f1f94;
+}
